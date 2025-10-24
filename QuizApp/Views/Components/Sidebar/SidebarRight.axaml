@@ -8,7 +8,7 @@
              x:Class="QuizApp.Views.Components.Sidebar.SidebarRight"
              x:DataType="vm:SidebarRightViewModel">
 
-    <Border BorderBrush="Gray" BorderThickness="2,0,0,0">
+    <Border BorderBrush="Black" BorderThickness="2,0,0,0" Background="hsla(35, 46%, 91%, 1)">
         <StackPanel Margin="20,30" Spacing="50">
             <sidebar:UserProfileView DataContext="{Binding Profile}" />
             <sidebar:UserStatsView DataContext="{Binding Stats}" />

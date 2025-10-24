@@ -16,13 +16,15 @@
         <vm:MainWindowViewModel />
     </Design.DataContext>
 
-    <Grid ColumnDefinitions="290, *, 409" RowSpacing="50">
+    <Grid ColumnDefinitions="290, *, 409" RowSpacing="50"
+          Background="hsla(35, 46%, 91%, 1)">
 
         <!-- Aside left -->
         <sidebar:SidebarLeft DataContext="{Binding SidebarLeft}" />
 
         <!-- Main -->
-        <TransitioningContentControl Grid.Column="1" Content="{Binding CurrentPage}"/>
+        <TransitioningContentControl Grid.Column="1"
+                                     Content="{Binding CurrentPage}" />
 
         <!-- Aside Right -->
         <sidebar:SidebarRight Grid.Column="2"

@@ -73,3 +73,4 @@
 /Users/emmaspitz/RiderProjects/QuizApp/QuizApp/obj/Debug/net8.0/QuizApp.csproj.Up2Date
 /Users/emmaspitz/RiderProjects/QuizApp/QuizApp/obj/Debug/net8.0/QuizApp.genruntimeconfig.cache
 /Users/emmaspitz/RiderProjects/QuizApp/QuizApp/obj/Debug/net8.0/ref/QuizApp.dll
+/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/obj/Debug/net8.0/QuizApp.sourcelink.json

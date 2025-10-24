@@ -9,7 +9,8 @@
              x:DataType="vm:SidebarLeftViewModel">
 
 
-    <Border BorderBrush="Gray" BorderThickness="0,0,2,0">
+    <Border BorderBrush="Gray" BorderThickness="0,0,2,0"
+            Background="hsla(0, 0%, 98%, 1)">
         <Grid RowDefinitions="Auto,*, Auto"
               RowSpacing="50" Margin="20,30">
 
