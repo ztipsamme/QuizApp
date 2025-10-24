@@ -1,0 +1,50 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuizApp
+build_property.ProjectDir = /Users/emmaspitz/RiderProjects/QuizApp/QuizApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Components/Sidebar/Navigation.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Components/Sidebar/SidebarLeft.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Components/Sidebar/SidebarRight.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Components/Sidebar/UserProfileView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Components/Sidebar/UserStatsView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Pages/HomePageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Pages/MyQuizzesPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/emmaspitz/RiderProjects/QuizApp/QuizApp/Views/Pages/PlayQuizPageView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

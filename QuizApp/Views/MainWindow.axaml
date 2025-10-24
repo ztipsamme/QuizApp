@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:QuizApp.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sidebar="clr-namespace:QuizApp.Views.Components.Sidebar"
+        mc:Ignorable="d" d:DesignWidth="1440" d:DesignHeight="1024"
+        x:Class="QuizApp.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="QuizApp">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel />
+    </Design.DataContext>
+
+    <Grid ColumnDefinitions="290, *, 409" RowSpacing="50">
+
+        <!-- Aside left -->
+        <sidebar:SidebarLeft DataContext="{Binding SidebarLeft}" />
+
+        <!-- Main -->
+        <TransitioningContentControl Grid.Column="1" Content="{Binding CurrentPage}"/>
+
+        <!-- Aside Right -->
+        <sidebar:SidebarRight Grid.Column="2"
+                              DataContext="{Binding SidebarRight}" />
+
+    </Grid>
+</Window>

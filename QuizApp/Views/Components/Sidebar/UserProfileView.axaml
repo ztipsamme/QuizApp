@@ -1,0 +1,17 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sidebar="clr-namespace:QuizApp.ViewModels.Components.Sidebar"
+             mc:Ignorable="d"
+             x:Class="QuizApp.Views.Components.Sidebar.UserProfileView"
+             x:DataType="sidebar:UserProfileViewModel">
+
+    <Grid ColumnDefinitions="Auto,*" ColumnSpacing="20">
+        <Rectangle Width="70" Height="70" Fill="Gray" />
+        <StackPanel Grid.Column="1" Spacing="5" VerticalAlignment="Center">
+            <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="28"/>
+            <TextBlock Text="{Binding Tagline}" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -1,0 +1,26 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sidebar="clr-namespace:QuizApp.Views.Components.Sidebar"
+             xmlns:vm="clr-namespace:QuizApp.ViewModels.Components.Sidebar"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="QuizApp.Views.Components.Sidebar.SidebarLeft"
+             x:DataType="vm:SidebarLeftViewModel">
+
+
+    <Border BorderBrush="Gray" BorderThickness="0,0,2,0">
+        <Grid RowDefinitions="Auto,*, Auto"
+              RowSpacing="50" Margin="20,30">
+
+            <TextBlock Grid.Row="0" Text="QuizApp" FontWeight="Bold"
+                       FontSize="28" Padding="20,10" />
+
+            <sidebar:Navigation Grid.Row="1" DataContext="{Binding Navigation}" />
+
+            <Button Grid.Row="2" Content="Logga ut"
+                    Background="Transparent"
+                    FontWeight="Bold" FontSize="20" />
+        </Grid>
+    </Border>
+</UserControl>

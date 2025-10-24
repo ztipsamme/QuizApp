@@ -1,0 +1,23 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sidebar="clr-namespace:QuizApp.Views.Components.Sidebar"
+             xmlns:vm="clr-namespace:QuizApp.ViewModels.Components.Sidebar"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="QuizApp.Views.Components.Sidebar.SidebarRight"
+             x:DataType="vm:SidebarRightViewModel">
+
+    <Border BorderBrush="Gray" BorderThickness="2,0,0,0">
+        <StackPanel Margin="20,30" Spacing="50">
+            <sidebar:UserProfileView DataContext="{Binding Profile}" />
+            <sidebar:UserStatsView DataContext="{Binding Stats}" />
+            <Button Content="Redigera profil"
+                    FontWeight="Bold"
+                    BorderThickness="2"
+                    BorderBrush="Black"
+                    Background="Transparent"
+                    Padding="10,5" />
+        </StackPanel>
+    </Border>
+</UserControl>

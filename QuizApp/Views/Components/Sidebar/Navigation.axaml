@@ -1,0 +1,44 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sidebar="clr-namespace:QuizApp.ViewModels.Components.Sidebar"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="QuizApp.Views.Components.Sidebar.Navigation"
+             x:DataType="sidebar:NavigationViewModel">
+    <UserControl.Styles>
+        <Style Selector="Button">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Padding" Value="20,10" />
+            <Setter Property="CornerRadius" Value="100" />
+        </Style>
+
+        <Style Selector="Button:pointerover">
+            <Setter Property="Background" Value="hsla(0, 0%, 35%, 1)" />
+            <Setter Property="Foreground" Value="hsla(0, 0%, 98%, 1)" />
+        </Style>
+
+        <Style Selector="Button:pressed">
+            <Setter Property="Background" Value="hsla(0, 0%, 35%, 1)" />
+            <Setter Property="Foreground" Value="hsla(0, 0%, 98%, 1)" />
+        </Style>
+
+        <Style Selector="Button:focus">
+            <Setter Property="Background" Value="hsla(0, 0%, 35%, 1)" />
+            <Setter Property="Foreground" Value="hsla(0, 0%, 98%, 1)" />
+        </Style>
+    </UserControl.Styles>
+
+    <StackPanel>
+        <ItemsControl ItemsSource="{Binding NavItems}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate x:DataType="sidebar:NavItemTemplate">
+                    <Button Content="{Binding Text}"
+                            Command="{Binding SelectCommand}" />
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </StackPanel>
+</UserControl>

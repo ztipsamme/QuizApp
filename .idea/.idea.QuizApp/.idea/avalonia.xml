@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="QuizApp/App.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Assets/NavButtonStyle.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/ViewModels/UserProfileView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/MenuItem.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/NavItem.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/Navigation.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/SidebarLeft.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/SidebarRight.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/UserControl1.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/UserProfile.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/UserProfileView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Components/Sidebar/UserStatsView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/MainWindow.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Pages/HomePageView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Pages/MyQuizzesPageView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/Pages/PlayQuizPageView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/SidebarLeft.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/SidebarRight.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/UserProfileView.axaml" value="QuizApp/QuizApp.csproj" />
+        <entry key="QuizApp/Views/UserStatsView.axaml" value="QuizApp/QuizApp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,41 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:QuizApp.ViewModels"
+             xmlns:sidebar="clr-namespace:QuizApp.ViewModels.Components.Sidebar"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="sidebar:UserStatsViewModel"
+             x:Class="QuizApp.Views.Components.Sidebar.UserStatsView">
+
+    <Grid ColumnDefinitions="*,*,*,*" HorizontalAlignment="Stretch">
+        <StackPanel Grid.Column="0" Spacing="5">
+            <TextBlock Text="Xp" FontWeight="Bold" HorizontalAlignment="Center" />
+            <TextBlock Text="{Binding Xp}" HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="0,0,1,0" />
+
+        <StackPanel Grid.Column="1" Spacing="5">
+            <TextBlock Text="Matcher" FontWeight="Bold"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text="{Binding Matches}" HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="0,0,1,0" />
+
+        <StackPanel Grid.Column="2" Spacing="5">
+            <TextBlock Text="Vinster" FontWeight="Bold"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text="{Binding Wins}" HorizontalAlignment="Center" />
+        </StackPanel>
+
+        <Border Grid.Column="2" BorderBrush="Black" BorderThickness="0,0,1,0" />
+
+        <StackPanel Grid.Column="3" Spacing="5">
+            <TextBlock Text="Vänner" FontWeight="Bold"
+                       HorizontalAlignment="Center" />
+            <TextBlock Text="{Binding Friends}" HorizontalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</UserControl>
